@@ -7,7 +7,9 @@ public class sum {
     int x = sc.nextInt();
     System.out.println("Enter second number");
     float y = sc.nextFloat();
-    float sum = x+y;
-    System.out.println("The sum of two number is: "+sum);
+    System.out.println("Enter third number..");
+    long z = sc.nextLong();
+    float sum = x+y+z;
+      System.out.println("The sum of three number is: "+sum);
 }
 }
