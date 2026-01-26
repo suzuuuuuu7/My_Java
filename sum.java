@@ -11,5 +11,7 @@ public class sum {
     long z = sc.nextLong();
     float sum = x+y+z;
       System.out.println("The sum of three number is: "+sum);
+      float avg = sum/3;
+      System.out.println("The average number is: "+avg);
 }
 }
